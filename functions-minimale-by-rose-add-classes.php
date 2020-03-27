@@ -19,7 +19,7 @@
          if ( $blasphemy_by_rose_enter_content == "" ) {
            return;
          } else {
-           $blasphemy_by_rose_document->loadHTML($blasphemy_by_rose_enter_content, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
+           $blasphemy_by_rose_document->loadHTML($blasphemy_by_rose_content, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 
            /**
            * Add Tachyons classes to Image elements
