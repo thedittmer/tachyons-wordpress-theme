@@ -122,9 +122,6 @@ function minimale_by_rose_scripts() {
 	// Bootstrap 3 Stylesheet
 	wp_enqueue_style( 'tachyons-css', get_theme_file_uri( '/css/tachyons.min.css' ) );
 
-	// Theme Stylesheet
-	wp_enqueue_style( 'main-style', get_stylesheet_uri() );
-
 }
 add_action( 'wp_enqueue_scripts', 'minimale_by_rose_scripts' );
 

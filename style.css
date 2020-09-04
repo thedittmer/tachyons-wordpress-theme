@@ -58,7 +58,7 @@ a{
   box-sizing: border-box;
   color: #14248a;
   text-decoration: none;
-  transition: color .15s ease-in;}
+  transition: color .15s ease-in;
 }
 a:link,
 a:visited{
